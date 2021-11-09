@@ -107,3 +107,8 @@ Use modelsummary:
 modelsummary(model_2)
 ```
 
+Use stargazer:
+```{r, results = "asis"}
+stargazer(model_2, type = "html")
+```
+
